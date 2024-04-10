@@ -19,7 +19,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "FRIENDS"
 title_separator          : "|"
-subtitle                 : "Frameworks, Research and applIcations in complEx Networks with signeD edgeS" # site tagline that appears below site title in masthead
+subtitle                 : # site tagline that appears below site title in masthead
 name                     : "FRIENDS"
 description              : "Website of the CCS satellite FRIENDS"
 url                      : "https://signet-friends.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
