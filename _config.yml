@@ -23,7 +23,7 @@ subtitle                 : "Frameworks, Research and applIcations in complEx Net
 name                     : "FRIENDS"
 description              : "Website of the CCS satellite FRIENDS"
 url                      : "https://signet-friends.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/signet-friends" # the subpath of your site, e.g. "/blog"
+baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "signet-friends/signet-friends.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
