@@ -10,3 +10,6 @@
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+main:
+  - title: "Submit an Abstract"
+    url: https://signet-friends.github.io/submit
