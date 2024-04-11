@@ -1,4 +1,4 @@
-# main links
+ker# main links
 #main:
 #- title: "Submit Abstract"
 #    url: https://signet-friends.github.io/submit
@@ -16,6 +16,6 @@ main:
   - title: "Program"
     url: https://signet-friends.github.io/program
   - title: "Invited Speakers"
-    url: https://signet-friends.github.io/submit
+    url: https://signet-friends.github.io/speakers
   - title: "Organizing Committee"
     url: https://signet-friends.github.io/committee
