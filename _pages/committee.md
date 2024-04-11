@@ -5,6 +5,6 @@ permalink: /committee/
 
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
-| ![Dr. Sofia Teixeira](/path/to/img1.jpg){: width="200px" height="200px" } <br> Dr. Sofia Teixeira | ![Dr. Antoine Vendeville](/path/to/img2.jpg){: width="200px" height="200px" } <br> Dr. Antoine Vendeville | ![Elena Candellone](/assets/images/elena.jpeg){: width="200px" height="200px" } <br> Elena Candellone |
-| ![Emma Fraxanet](/assets/images/emma.jpg){: width="200px" height="200px" } <br> Emma Fraxanet | ![Fernando Diaz Diaz](/assets/images/fer.png){: width="200px" height="200px" } <br> Fernando Diaz Diaz | ![Irene Ferri](/assets/images/irene.jpeg){: width="200px" height="200px" } <br> Irene Ferri |
-|| Miguel Ángel González Casado <br> ![Miguel Ángel González Casado](/assets/images/miguel.png){: width="200px" height="200px" } | |
+| <img src="/path/to/img1.jpg" width="200" height="200"> <br> Dr. Sofia Teixeira | <img src="/path/to/img2.jpg" width="200" height="200"> <br> Dr. Antoine Vendeville | <img src="/assets/images/elena.jpeg" width="200" height="200"> <br> Elena Candellone |
+| <img src="/assets/images/emma.jpg" width="200" height="200"> <br> Emma Fraxanet | <img src="/assets/images/fer.png" width="200" height="200"> <br> Fernando Diaz Diaz | <img src="/assets/images/irene.jpeg" width="200" height="200"> <br> Irene Ferri |
+|| <img src="/assets/images/miguel.png" width="200" height="200">  <br> Miguel Ángel González Casado | |
