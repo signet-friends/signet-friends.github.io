@@ -1,15 +1,4 @@
-ker# main links
-#main:
-#- title: "Submit Abstract"
-#    url: https://signet-friends.github.io/submit
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+
 main:
   - title: "Submit an Abstract"
     url: https://signet-friends.github.io/submit
