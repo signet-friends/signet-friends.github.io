@@ -2,8 +2,9 @@
 title: Organizing Committee
 permalink: /committee/
 ---
+
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
-| ![img1](img1) <br> Dr. Sofia Teixeira | ![img2](img2) <br> Dr. Antoine Vendeville | ![img3](/assets/images/elena.jpeg) <br> Elena Candellone |
-| ![img4](/assets/images/emma.jpg) <br> Emma Fraxanet | ![img5](/assets/images/fer.png) <br> Fernando Diaz Diaz | ![img6](/assets/images/irene.jpeg) <br> Irene Ferri |
-|| Miguel Ángel González Casado <br> ![img7](/assets/images/miguel.png) | |
+| ![Dr. Sofia Teixeira](/path/to/img1.jpg){: width="200px" } <br> Dr. Sofia Teixeira | ![Dr. Antoine Vendeville](/path/to/img2.jpg){: width="200px" } <br> Dr. Antoine Vendeville | ![Elena Candellone](/assets/images/elena.jpeg){: width="200px" } <br> Elena Candellone |
+| ![Emma Fraxanet](/assets/images/emma.jpg){: width="200px" } <br> Emma Fraxanet | ![Fernando Diaz Diaz](/assets/images/fer.png){: width="200px" } <br> Fernando Diaz Diaz | ![Irene Ferri](/assets/images/irene.jpeg){: width="200px" } <br> Irene Ferri |
+|| Miguel Ángel González Casado <br> ![Miguel Ángel González Casado](/assets/images/miguel.png){: width="200px" } | |
