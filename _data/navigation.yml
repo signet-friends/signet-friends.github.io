@@ -13,3 +13,9 @@
 main:
   - title: "Submit an Abstract"
     url: https://signet-friends.github.io/submit
+  - title: "Program"
+    url: https://signet-friends.github.io/program
+  - title: "Invited Speakers"
+    url: https://signet-friends.github.io/submit
+  - title: "Organizing Committee"
+    url: https://signet-friends.github.io/committee
