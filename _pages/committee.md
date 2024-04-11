@@ -1,6 +1,5 @@
 ---
 title: Organizing Committee
-layout: page
 permalink: /committee/
 ---
 | | | |
