@@ -1,6 +1,6 @@
 ---
 title: Submit an Abstract
-permalink: /Submit/
+permalink: /submit/
 ---
 
 # Submit an Abstract
