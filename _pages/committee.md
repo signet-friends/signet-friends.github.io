@@ -10,8 +10,6 @@ permalink: /committee/
   }
 </style>
 
-# Organizing Committee
-
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
 | <img src="/assets/images/sofia.png" class="committee-img"> <br> Dr. Andreia Sofia Teixeira | <img src="/assets/images/antoine.png" class="committee-img"> <br> Dr. Antoine Vendeville | <img src="/assets/images/elena.jpeg" class="committee-img"> <br> Elena Candellone |
