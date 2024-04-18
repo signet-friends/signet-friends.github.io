@@ -18,3 +18,7 @@ permalink: /program/
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
 | slot 2 |Speaker 2 | abstract |
+
+
+
+![Abstract Submission](/assets/logo.png)
