@@ -3,7 +3,7 @@ title: Program
 permalink: /program/
 ---
 
-**When:** 2nd-3rd of September 2024 (exact day TBD)
+**When:** 2nd of September 2024
 
 **Where:** Exeter, UK
 
