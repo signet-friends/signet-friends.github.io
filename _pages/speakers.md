@@ -16,7 +16,7 @@ His research deals mostly with the applications of physics of complex systems to
 
 Her research interests concern probability theory, statistical physics of networks, and opinion dynamics. Her PhD focuses on the study of signed networks, the goal being that reformulating the most popular social theories within a statistical framework at both microscopic and mesoscopic levels.
 
-**Website**: [https://scholar.google.com/citations?user=Z7KRq3MAAAAJ&hl=en](https://scholar.google.com/citations?user=Z7KRq3MAAAAJ&hl=en)
+**Website**: [Google Scholar](https://scholar.google.com/citations?user=Z7KRq3MAAAAJ&hl=en)
 
 **Abstract**: TBD
 
