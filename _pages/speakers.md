@@ -11,5 +11,14 @@ His research deals mostly with the applications of physics of complex systems to
 
 **Abstract**: TBD
 
+# Anna Gallo
+**Bio**: She is currently a PhD student at the IMT School For Advanced Studies Lucca (Italy) working under the supervision of Professors Tiziano Squartini and Diego Garlaschelli. She holds a Bachelor's degree (2019) and a Master's degree (2021) in Mathematics at the University of Florence (2021). Her Master's thesis focuses on the analysis of the metastable behavior of the Potts model on a square lattice. She has a record of publications on both mathematics and physics journals.
+
+Her research interests concern probability theory, statistical physics of networks, and opinion dynamics. Her PhD focuses on the study of signed networks, the goal being that reformulating the most popular social theories within a statistical framework at both microscopic and mesoscopic levels.
+
+**Website**: [https://scholar.google.com/citations?user=Z7KRq3MAAAAJ&hl=en](https://scholar.google.com/citations?user=Z7KRq3MAAAAJ&hl=en)
+
+**Abstract**: TBD
+
 
 ![Abstract Submission](/assets/logo.png)
