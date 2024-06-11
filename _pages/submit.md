@@ -4,7 +4,7 @@ permalink: /submit/
 ---
 Submit an abstract by sending an email to [signet.friends@gmail.com](mailto:signet.friends@gmail.com).
 
-**Abstract submission deadline:** June 10th
+**Abstract submission deadline:** ~~June 10th~~ **JULY 10th**
 
 ## Abstract guidelines
 Please prepare a PDF document of 2 pages maximum (see template). On the first page, you must include the title, authors and their affiliations, and the full abstract of your talk. The second page can only contain one figure with caption, and references.
