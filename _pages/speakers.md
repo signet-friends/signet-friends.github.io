@@ -20,5 +20,11 @@ Her research interests concern probability theory, statistical physics of networ
 
 **Abstract**: TBD
 
+# George T. Cantwell
+**Bio**: George Cantwell is an Assistant Professor in the Department of Engineering at the University of Cambridge. He specializes in networks, statistics, algorithms, physics, and behavior. George holds a Ph.D. in Physics from the University of Michigan and completed a postdoctoral fellowship at the Santa Fe Institute. His research focuses on understanding complex systems and their dynamics.
+
+**Website**: [https://www.george-cantwell.com/](https://www.george-cantwell.com/)
+
+**Abstract**: TBD
 
 ![Abstract Submission](/assets/logo.png)
