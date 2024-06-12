@@ -27,4 +27,12 @@ Her research interests concern probability theory, statistical physics of networ
 
 **Abstract**: TBD
 
+# Chiara Boldrini
+**Bio**: Chiara Boldrini is a Senior Researcher at IIT-CNR. Her research interests include human behavioral/cognitive models for the analysis and design of online social networks, human-centric decentralized AI, causal learning in pervasive systems, and social network structures in the Metaverse. She is the IIT-CNR co-PI for the National Extended Partnership in Artificial Intelligence FAIR, H2020 SoBigData++, and H2020 HumaneE-AI-Net projects, and has been involved in several EC projects since FP7. She currently holds the position of Editor-in-Chief for Special Issues at Elsevier Computer Communications and is a member of the Editorial Board of Elsevier Pervasive and Mobile Computing. She served as TPC chair of IEEE PerCom'24 and has been on the organizing committee of several IEEE and ACM conferences/workshops, including IEEE PerCom and ACM MobiHoc. Recently, she has served in the TPC of AAAI ICWSM (as a senior PC member), The Web Conference, ECML-PKDD, WSDM, among several others.
+
+
+**Website**: [https://www.iit.cnr.it/en/chiara.boldrini/](https://www.iit.cnr.it/en/chiara.boldrini/)
+
+**Abstract**: TBD
+
 ![Abstract Submission](/assets/logo.png)
