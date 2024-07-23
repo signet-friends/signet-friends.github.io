@@ -12,7 +12,7 @@ permalink: /program/
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
 | 9:30 - 9:35 | Welcome and introduction |  |
-| 9:35 - 10:15 | Keynote speaker: Chiara Boldrini |  |
+| 9:35 - 10:15 | Keynote speaker: Chiara Boldrini | Keep your friends close, and your enemies closer: signed ego networks on Twitter/X |
 | 10:15 - 10:35 | Contributed: Piotr Gorski | Under-representation of nonhierarchical triads in structural balance model |
 | 10:35 - 10:55 | Contributed: Szymon Talaga | Density-based clustering of signed networks |
 | 11:00 - 11:30 | Coffee break |  |
