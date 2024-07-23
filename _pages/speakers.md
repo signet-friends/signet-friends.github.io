@@ -81,6 +81,8 @@ determining frustration at higher levels (e.g. the triadic one).
 
 **Website**: [https://www.iit.cnr.it/en/chiara.boldrini/](https://www.iit.cnr.it/en/chiara.boldrini/)
 
-**Abstract**: TBD
+**Talk title**: *Keep your friends close, and your enemies closer: signed ego networks on Twitter/X*
+
+**Abstract**: Imagine a map of your closest social relationships, where closeness isn't just about how often you interact, but also about the sentiment you share. This talk explores the Ego Network Model (ENM), a powerful tool for understanding social structures, with a new twist: Signed Ego Networks (SENs). SENs use sentiment analysis to reveal the positive or negative nature of our social connections. Using Twitter data from a wide range of users, we embark on a journey to understand the unique dynamics of SENs. In this talk, we will discuss how to construct signed ego networks, explore their main properties and limitations, and highlight potential applications and new research directions.
 
 ![Abstract Submission](/assets/logo.png)
