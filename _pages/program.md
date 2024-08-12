@@ -26,8 +26,8 @@ permalink: /program/
 |:-------------------------:|:-------------------------:|:-------------------------:|
 | 14:00 - 14:30 | Invited speaker (main conference) | |
 | 14:35 - 15:15 | Keynote speaker: George Cantwell | |
-| 15:15 - 15:35 | Contributed: Yu Tian | Spreading and Structural Balance on Signed Networks |
-| 15:35 - 15:55 | Contributed | |
+| 15:15 - 15:35 | Contributed: Fernando Diaz-Diaz |  |
+| 15:35 - 15:55 | Contributed: Elena Candellone | Community detection in bipartite signed networks is highly dependent on parameter choice |
 | 16:00 - 16:30 | Coffee break | |
 | 16:35 - 17:15 | Keynote speaker: Anna Gallo | Testing structural balance theories in undirected and directed signed networks |
 | 17:15 - 17:55 | Panel: Opportunities and Challenges for Signed Networks in Complex Systems | |
