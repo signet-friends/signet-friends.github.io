@@ -25,8 +25,8 @@ permalink: /program/
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
 | 14:00 - 14:30 | Invited speaker (main conference) | |
-| 14:35 - 15:15 | Keynote speaker: George Cantwell | |
-| 15:15 - 15:35 | Contributed: Fernando Diaz-Diaz |  |
+| 14:35 - 15:15 | Keynote speaker: George Cantwell | Defining and detecting balance |
+| 15:15 - 15:35 | Contributed: Fernando Diaz-Diaz | International relations networks through the lens of local balance |
 | 15:35 - 15:55 | Contributed: Elena Candellone | Community detection in bipartite signed networks is highly dependent on parameter choice |
 | 16:00 - 16:30 | Coffee break | |
 | 16:35 - 17:15 | Keynote speaker: Anna Gallo | Testing structural balance theories in undirected and directed signed networks |
