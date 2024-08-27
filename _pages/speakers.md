@@ -73,7 +73,11 @@ determining frustration at higher levels (e.g. the triadic one).
 
 **Website**: [https://www.george-cantwell.com/](https://www.george-cantwell.com/)
 
-**Abstract**: TBD
+**Talk title**: *Defining and detecting balance*
+
+**Abstract**: In social networks we have intuitive assumptions about how patterns of friends and antagonism should be distributed. For example, it seems more probable that a friend-of-a-friend would also be a friend of yours, rather than an enemy. Whether this is actually true, of course, is an empirical question.  Answering this question requires us to be clear about what we actually mean.
+
+Strong balance and weak balance are two competing frameworks.  But the world is messy, and neither notion holds exactly in real data. I will outline some subtleties in applying these notions to data and an inference-based solution for detecting and classifying patterns of balance.
 
 # Chiara Boldrini
 **Bio**: Chiara Boldrini is a Senior Researcher at IIT-CNR. Her research interests include human behavioral/cognitive models for the analysis and design of online social networks, human-centric decentralized AI, causal learning in pervasive systems, and social network structures in the Metaverse. She is the IIT-CNR co-PI for the National Extended Partnership in Artificial Intelligence FAIR, H2020 SoBigData++, and H2020 HumaneE-AI-Net projects, and has been involved in several EC projects since FP7. She currently holds the position of Editor-in-Chief for Special Issues at Elsevier Computer Communications and is a member of the Editorial Board of Elsevier Pervasive and Mobile Computing. She served as TPC chair of IEEE PerCom'24 and has been on the organizing committee of several IEEE and ACM conferences/workshops, including IEEE PerCom and ACM MobiHoc. Recently, she has served in the TPC of AAAI ICWSM (as a senior PC member), The Web Conference, ECML-PKDD, WSDM, among several others.
