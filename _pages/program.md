@@ -5,7 +5,8 @@ permalink: /program/
 
 **When:** 2nd of September 2024
 
-**Where:** Exeter, UK
+**Where:** Room 9, University of Exeter Great Hall, Forum, University of Exeter, Exeter.
+
 
 ## Morning
 
