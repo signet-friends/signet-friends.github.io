@@ -18,7 +18,7 @@ permalink: /program/
 | 11:00 - 11:30 | Coffee break |  |
 | 11:35 - 12:15 | Keynote speaker: Anxo Sanchez | There is more to signed networks than social balance |
 | 12:15 - 12:35 | Contributed: David Ferenczi | Inferring Signed Networks From Contact Patterns |
-| 12:35 - 12:55 | Contributed: Alexandre Bovet |  |
+| 12:35 - 12:55 | Contributed: Alexandre Bovet | Birds of a Feather Block Each Other |
 
 ## Afternoon
 
