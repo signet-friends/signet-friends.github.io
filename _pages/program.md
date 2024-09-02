@@ -30,7 +30,7 @@ permalink: /program/
 | 14:00 - 14:30 | Invited speaker (main conference) | | |
 | 14:35 - 15:15 | Keynote speaker: Anna Gallo | Testing structural balance theories in undirected and directed signed networks | E. Candellone |
 | 15:15 - 15:35 | Contributed: Elena Candellone | Community detection in bipartite signed networks is highly dependent on parameter choice | E. Fraxanet |
-| 15:35 - 15:55 | TBD | TBD | TBD |
+| 15:35 - 15:55 | Contributed: Emma Fraxanet | Unpacking polarization: Antagonism and alignment in signed networks of online interaction | E. Candellone |
 | 16:00 - 16:30 | Coffee break | | |
 | 16:35 - 17:15 | Keynote speaker: George Cantwell | Defining and detecting balance  | E. Fraxanet |
 | 17:15 - 17:55 | Panel: Opportunities and Challenges for Signed Networks in Complex Systems | | A.S. Teixeira |
