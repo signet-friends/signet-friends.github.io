@@ -5,9 +5,9 @@ permalink: /pasteditions/
 
 # CCS 2024
 
-| | | | |
+| | |
 :-------------------------:|:-------------------------:|
-| Speaker | Title | 
+| **Speaker** | **Title** | 
 | Chiara Boldrini | Keep your friends close, and your enemies closer: signed ego networks on Twitter/X |
 | Piotr Gorski | Under-representation of nonhierarchical triads in structural balance model |
 | Szymon Talaga | Density-based clustering of signed networks |
