@@ -11,4 +11,15 @@ His research interests include network science, data mining, stochastic processe
 **Talk title**: *TBD*
 
 **Abstract**: TBD
+
+# Tiago P. Peixoto
+
+**Bio**: Tiago P. Peixoto is is a Full Professor at IT:U, and is also affiliated with the Department of Network and Data Science at the Central European University. He leads the “Inverse Complexity Lab”, which operates at the interface between statistical physics, computational statistics, information theory, Bayesian inference, and machine learning, and has as its main focus the study of inverse problems in network science and complex systems. Peixoto develops and maintains graph-tool — an efficient Python module for manipulation and statistical analysis of graphs and networks. He has a PhD in Physics from the University of São Paulo, and a Habilitation in Theoretical Physics from the University of Bremen. In 2019 he was the recipient of the Erdős–Rényi Prize in Network Science, awarded by the Network Science Society.
+
+**Website**: [https://skewed.de/lab/](https://skewed.de/lab/)
+
+**Talk title**: *TBD*
+
+**Abstract**: TBD
+
 ![Abstract Submission](/assets/logo.png)
