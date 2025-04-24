@@ -11,11 +11,11 @@ permalink: /program/
  | 15:15 - 15:55 | Keynote speaker: Renaud Lambiotte |  |  |
  | 16:00 - 16:30 | Coffee break | | |
  | 16:35 - 17:15 | Keynote speaker: Tiago P. Peixoto |  | |
- | 17:15 - 17:30 | Contributed: Samin Aref |  | |
- | 17:30 - 17:45 | Contributed: Tim Evans |  | |
- | 17:45 - 18:00 | Contributed: Louis Boucherie |  | |
- | 18:00 - 18:15 | Contributed: Krishnadas Mohandas |  | |
- | 18:15 - 18:30 | Contributed: Marzio di Vece |  | |
+ | 17:15 - 17:30 | Contributed: Samin Aref |  Optimization algorithm for solving clique partitioning in weighted signed networks | |
+ | 17:30 - 17:45 | Contributed: Tim Evans | From Signed Networks to Group Graphs | |
+ | 17:45 - 18:00 | Contributed: Louis Boucherie | Signed Latent Relational Distance Model (SLIM) for Analyzing Signed Networks | |
+ | 18:00 - 18:15 | Contributed: Krishnadas Mohandas | Critical properties of Heider balance on multiplex networks | |
+ | 18:15 - 18:30 | Contributed: Marzio di Vece | From sequential to relational data: a validated projection of multivariate time series onto signed graphs | |
  
 
 ![Abstract Submission](/assets/logo.png)
