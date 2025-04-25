@@ -7,7 +7,7 @@ permalink: /program/
  |:-------------------------:|:-------------------------:|:-------------------------:|
  |  | Speaker | Title | 
  | 14:30 - 14:35 | Opening | |
- | 14:35 - 15:15 | Keynote speaker: Jana Diesner |  |  |
+ | 14:35 - 15:15 | Keynote speaker: Jana Diesner |  | 
  | 15:15 - 15:55 | Keynote speaker: Renaud Lambiotte | [Structural balance beyond signed networks](https://signet-friends.github.io/speakers/#renaud-lambiotte) |
  | 16:00 - 16:30 | Coffee break | | 
  | 16:35 - 17:15 | Keynote speaker: Tiago P. Peixoto |  |
