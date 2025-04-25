@@ -8,9 +8,9 @@ His research interests include network science, data mining, stochastic processe
 
 **Website**: [https://www.maths.ox.ac.uk/people/renaud.lambiotte](https://www.maths.ox.ac.uk/people/renaud.lambiotte)
 
-**Talk title**: *TBD*
+**Talk title**: *Structural balance beyond signed networks*
 
-**Abstract**: TBD
+**Abstract**: Structural balance—whether in its weak or strong form—is a foundational concept in the theory of signed networks. In this talk, I will explore how this notion extends beyond its traditional setting to offer insight into more general classes of networks. In particular, I will demonstrate that structural balance provides a natural framework for analyzing complex-weighted networks, where edge weights are complex numbers, introducing phenomena such as signal rotation and interference. I will show how structural balance can be used to classify these networks and to describe the behavior of random walks on them. Notably, asymptotic local consensus emerges when the network is structurally balanced, while global consensus arises in strictly unbalanced cases. Finally, I will present a broader generalization in which signals propagate through nodes via arbitrary linear transformations associated with each edge, moving the discussion into higher-dimensional dynamics.
 
 # Tiago P. Peixoto
 
