@@ -29,9 +29,9 @@ His research interests include network science, data mining, stochastic processe
 
 **Website**: [https://www.gov.sot.tum.de/hcc/team/jana-diesner/](https://www.gov.sot.tum.de/hcc/team/jana-diesner/)
 
-**Talk title**: *TBD*
+**Talk title**: *Natural language processing to extract and enhance network data*
 
-**Abstract**: TBD
+**Abstract**: Data on edge valence is hard to collect. For example, the reciprocity of friendship ties when elicited with questionnaires or surveys, is a little over 50%. This asks for alternative methods for data collection methods. I show how we have been using methods from natural language processing to identify edge signs, and how we used this approach to re-evaluate balance theory. I also show how biases in natural language processing methods lead to biased network analysis results.   
 
 
 ![Abstract Submission](/assets/logo.png)
