@@ -18,9 +18,9 @@ His research interests include network science, data mining, stochastic processe
 
 **Website**: [https://skewed.de/lab/](https://skewed.de/lab/)
 
-**Talk title**: *TBD*
+**Talk title**: *Disentangling rankings, degree imbalance, and mixing preferences in directed networks*
 
-**Abstract**: TBD
+**Abstract**: Many networked systems feature asymmetric pairwise interactions, such as predator-prey dynamics, social dominance, or neuronal signaling, which may reflect an underlying latent hierarchy. However, these hierarchies are often not the sole or even most relevant organizing principle; heterogeneous mixing and modular structures can also govern interactions independently of any directional ordering. In such situations, an a posteriori ordering of the nodes may result in a spurious ranking that is in fact unrelated any underlying process of network formation. In this talk I present a method to infer both hierarchical and modular organization in directed networks using a modified stochastic block model. The model assigns nodes to groups with an imposed order, favoring interactions that align with this hierarchy while also allowing arbitrary inter-group connectivity. By incorporating directed degree correction, the method distinguishes large-scale hierarchical patterns from local asymmetries in node connectivity, and allows us to deconflate ranked hierarchies from other heterogeneous directed mixing patterns. This approach offers a more comprehensive framework for understanding the dual influence of hierarchy, degree imbalance, and group preferences in complex directed networks.
 
 
 # Jana Diesner
