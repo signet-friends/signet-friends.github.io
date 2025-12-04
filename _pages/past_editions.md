@@ -3,6 +3,19 @@ title: Past editions
 permalink: /pasteditions/
 ---
 
+# NetSci 2025
+ 
+| | | 
+ |:-------------------------:|:-------------------------:|
+ | **Speaker** | **Title** | 
+| Jana Diesner | Natural language processing to extract and enhance network data | 
+| Renaud Lambiotte | Structural balance beyond signed networks |
+| Samin Aref | Integer Programming Models for Optimization-Based Clustering and Analysis of Networks | 
+| Tim Evans | From Signed Networks to Group Graphs | 
+ | Louis Boucherie | Signed Latent Relational Distance Model (SLIM) for Analyzing Signed Networks | 
+| Marzio di Vece | From sequential to relational data: a validated projection of multivariate time series onto signed graphs | 
+
+
 # CCS 2024
 
 | | |
