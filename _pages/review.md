@@ -8,8 +8,8 @@ Check out our latest pre-print, _Signed Networks: theory, methods, and applicati
 [https://doi.org/10.48550/arXiv.2511.17247](https://doi.org/10.48550/arXiv.2511.17247)
 
 # Outline
-1. Introduction
-2. Mathematical foundations of signed networks
+1. [Introduction](https://arxiv.org/pdf/2511.17247#page=2.08)
+2. [Mathematical foundations of signed networks](https://arxiv.org/pdf/2511.17247#page=4.08)
    1. Definition and representation of signed networks
    2. Basic metrics
       1. Signed degree and its distribution
@@ -18,13 +18,13 @@ Check out our latest pre-print, _Signed Networks: theory, methods, and applicati
       4. Signed centralities
       5. Signed motifs
    3. Signed Laplacian
-3. Cognitive and structural balance
+3. [Cognitive and structural balance](https://arxiv.org/pdf/2511.17247#page=14.08)
    1. Heiderian (cognitive) balance
    2. Hararian (structural) balance
    3. Comparison between Heiderian and Hararian balance
    4. Mathematical properties of balanced networks
    5. Balance indices
-4. Network structure and inference
+4. [Network structure and inference](https://arxiv.org/pdf/2511.17247#page=23.49)
    1. Null models
    2. Node embeddings
    3. Sign prediction
@@ -32,7 +32,7 @@ Check out our latest pre-print, _Signed Networks: theory, methods, and applicati
       1. Quality function optimization
       2. Spectral methods
       3. Statistical inference
-5. Dynamics
+5. [Dynamics](https://arxiv.org/pdf/2511.17247#page=37.08)
    1. Dynamics on networks
       1. Diffusive dynamics
       2. Voter model and random walks
@@ -44,7 +44,7 @@ Check out our latest pre-print, _Signed Networks: theory, methods, and applicati
       2. Data-driven approaches
       3. Mechanisms governing signed network dynamics
    3. Co-evolving dynamics
-6. Collection, inference and availability of signed data
+6. [Collection, inference and availability of signed data](https://arxiv.org/pdf/2511.17247#page=53.08)
    1. Mining signed networks from raw data
       1. Ranking data
       2. Unsigned bipartite networks
@@ -55,9 +55,9 @@ Check out our latest pre-print, _Signed Networks: theory, methods, and applicati
       2. Online platforms
       3. Political systems
       4. Country systems
-7. Myths and pitfalls
-8. Conclusions
-9. Appendix
+7. [Myths and pitfalls](https://arxiv.org/pdf/2511.17247#page=61.08)
+8. [Conclusions](https://arxiv.org/pdf/2511.17247#page=66.08)
+9. [Appendix](https://arxiv.org/pdf/2511.17247#page=93.93)
 
 
 
