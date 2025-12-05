@@ -4,7 +4,7 @@ permalink: /submit/
 ---
 Submit an abstract by sending an email to [signet.friends@gmail.com](mailto:signet.friends@gmail.com).
 
-**Abstract submission deadline: Feb 18th, 2025**
+**Abstract submission deadline: TBD**
 
 ## Abstract guidelines
 One-page abstracts should include text, one figure with a caption, and [selected] references. Each submission should be submitted in Adobe’s Portable Document Format (PDF) and formatted using the provided abstract template. You can download the LaTeX template [here](https://github.com/NetSci2025/netsci2025.github.io/raw/main/assets/templates/NetSci2025_abstract_template.zip) or see a PDF example [here](https://github.com/user-attachments/files/16743747/NetSci2025_sample_abstract.pdf).
