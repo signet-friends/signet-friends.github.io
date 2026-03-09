@@ -32,20 +32,22 @@ feature_row:
     btn_label: "Abstract"
     btn_class: "btn--primary"
 ---
-
 <style>
-.feature-row .feature__image {
-  width: 220px;
-  height: 220px;
+.feature__wrapper .feature__item .archive__item-teaser {
+  height: 200px;
+  overflow: hidden;
+}
+
+.feature__wrapper .feature__item .archive__item-teaser img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  margin: 0 auto;
+  object-position: center top;
 }
 </style>
-
 <p>FRIENDS is a satellite of NetSci 2026 in Boston and will focus on the unique properties of signed networks, that is, networks containing positive and negative links. It is the third edition of this series, following CCS 2024 and NetSci 2025. Through invited talks and contributed presentations, the satellite will cover recent mathematical models, new network metrics, and the implications of this framework across different scientific fields.</p>
 <p><strong>The abstract submission period is now open.</strong> Please submit your abstract by <strong>March 20th.</strong> Contributions will be reviewed on a rolling basis, so early submission is strongly encouraged.</p>
 <p><strong>When:</strong> June 1st</p>
 <p><strong>Abstract submission deadline:</strong> March 20th.</p>
 <p><strong>Where:</strong> Boston, USA</p>
-
 {% include feature_row %}
