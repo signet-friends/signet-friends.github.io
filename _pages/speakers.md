@@ -44,4 +44,13 @@ illustrate how Boolean modeling integrated with transcriptomics and network biol
 provide mechanistic insights into drug action and combination therapies, offering a
 scalable approach for deciphering systems-level drug mechanisms.
 
+# Rick Betzel
+**Bio**: His research program focuses on characterizing connectomes–network maps of the anatomical and functional connections between neural elements-and the relationship of these features to large-scale brain dynamics as well as human behavior, disease, and cognition. A major component of this research involves complex network models and analysis using a diverse set of mathematical tools that includes elements of graph theory, information theory, and dynamical systems theory.
+
+**Website**: [https://med.umn.edu/bio/richard-betzel](https://med.umn.edu/bio/richard-betzel)
+
+**Talk title**: *Edge-centric connectomics*
+
+**Abstract**: Historically, network neuroscience has focused on properties of nodes -- neurons, populations, and areas -- often at the expense of interactions, themselves. Recently, we proposed a framework that refocused attention onto functional connections in large-scale imaging data. Here, I will introduce this framework and (briefly) summarize some of our initial results. In the final part of the talk, I will focus on recent extensions of this edge-centric framework that help resolve questions in network neuroscience about the meaning and importance of apparent time-varying fluctuations in connectivity.
+
 ![Abstract Submission](/assets/logo.png)
