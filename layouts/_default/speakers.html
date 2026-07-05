@@ -8,7 +8,7 @@
 
 <section class="section">
   <div class="wrap wrap--narrow">
-    {{ range $i, $s := hugo.Data.speakers }}
+    {{ range $i, $s := site.Data.speakers }}
     <article id="{{ $s.slug }}" class="speaker-profile">
       <div class="speaker-profile__media">
         <img src="{{ $s.image | relURL }}" alt="{{ $s.name }}" loading="lazy">
@@ -26,7 +26,7 @@
         </div>
       </div>
     </article>
-    {{ if ne (add $i 1) (len hugo.Data.speakers) }}<hr class="divider">{{ end }}
+    {{ if ne (add $i 1) (len site.Data.speakers) }}<hr class="divider">{{ end }}
     {{ end }}
   </div>
 </section>

@@ -1,7 +1,7 @@
 {{ define "main" }}
 <section class="page-header">
   <div class="wrap">
-    <p class="eyebrow">FRIENDS · {{ hugo.Data.program.edition }}</p>
+    <p class="eyebrow">FRIENDS · {{ site.Data.program.edition }}</p>
     <h1>{{ .Title }}</h1>
     <p class="page-header__note">{{ .Site.Params.where }} · {{ .Site.Params.when }}</p>
   </div>
@@ -10,7 +10,7 @@
 <section class="section">
   <div class="wrap wrap--narrow">
     <ol class="agenda">
-      {{ range hugo.Data.program.sessions }}
+      {{ range site.Data.program.sessions }}
       <li class="agenda-item agenda-item--{{ .kind }}">
         <span class="agenda-item__time">{{ .time }}</span>
         <span class="agenda-item__tag">{{ .kind }}</span>

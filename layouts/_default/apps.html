@@ -10,7 +10,7 @@
 <section class="section">
   <div class="wrap">
     <div class="app-grid">
-      {{ range hugo.Data.apps }}
+      {{ range site.Data.apps }}
       <a class="app-card" href="{{ .url }}" target="_blank" rel="noopener">
         {{ if .topic }}<span class="app-card__topic">{{ .topic }}</span>{{ end }}
         <h2>{{ .title }}</h2>
