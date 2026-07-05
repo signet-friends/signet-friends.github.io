@@ -1,0 +1,34 @@
+{{ define "main" }}
+<section class="page-header">
+  <div class="wrap">
+    <p class="eyebrow">FRIENDS · {{ hugo.Data.program.edition }}</p>
+    <h1>{{ .Title }}</h1>
+    <p class="page-header__note">{{ .Site.Params.where }} · {{ .Site.Params.when }}</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap wrap--narrow">
+    <ol class="agenda">
+      {{ range hugo.Data.program.sessions }}
+      <li class="agenda-item agenda-item--{{ .kind }}">
+        <span class="agenda-item__time">{{ .time }}</span>
+        <span class="agenda-item__tag">{{ .kind }}</span>
+        <div class="agenda-item__body">
+          {{ if .title }}
+            <p class="agenda-item__speaker">{{ .speaker }}</p>
+            {{ if .url }}
+            <p class="agenda-item__title"><a href="{{ .url | relLangURL }}">{{ .title }}</a></p>
+            {{ else }}
+            <p class="agenda-item__title">{{ .title }}</p>
+            {{ end }}
+          {{ else }}
+            <p class="agenda-item__speaker">{{ .speaker }}</p>
+          {{ end }}
+        </div>
+      </li>
+      {{ end }}
+    </ol>
+  </div>
+</section>
+{{ end }}

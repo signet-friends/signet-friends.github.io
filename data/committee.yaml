@@ -1,0 +1,58 @@
+# Add a "website" line under any member to make their name link out to it.
+# Leave it blank (or omit the line) to show the name as plain text.
+# NOTE: the same person appears once per edition they were on the committee
+# for, so if you add a website for someone, add it to each occurrence below.
+
+- edition: "NetSci 2026"
+  members:
+    - name: "Andreia Sofia Teixeira"
+      image: "/images/sofia.jpg"
+      website: "https://andreiasofiateixeira.com/"
+    - name: "Elena Candellone"
+      image: "/images/elena.jpg"
+      website: "https://elenacandellone.github.io/"
+    - name: "Fernando Diaz Diaz"
+      image: "/images/fer.jpg"
+      website: "https://sites.google.com/view/fernandodiazdiaz"
+    - name: "Anna Gallo"
+      image: "/images/AGallo.jpg"
+      website: "https://scholar.google.com/citations?user=Us0nqC8AAAAJ&hl=en"
+
+- edition: "NetSci 2025"
+  members:
+    - name: "Andreia Sofia Teixeira"
+      image: "/images/sofia.jpg"
+      website: "https://andreiasofiateixeira.com/"
+    - name: "Elena Candellone"
+      image: "/images/elena.jpg"
+      website: "https://elenacandellone.github.io/"
+    - name: "Fernando Diaz Diaz"
+      image: "/images/fer.jpg"
+      website: "https://sites.google.com/view/fernandodiazdiaz"
+    - name: "Miguel Ángel González Casado"
+      image: "/images/miguel.jpg"
+      website: "https://miguelangel-gonzalezc.github.io/"
+
+- edition: "CCS 2024"
+  members:
+    - name: "Andreia Sofia Teixeira"
+      image: "/images/sofia.jpg"
+      website: "https://andreiasofiateixeira.com/"
+    - name: "Antoine Vendeville"
+      image: "/images/antoine.jpg"
+      website: "https://antoinevendeville.github.io/"
+    - name: "Elena Candellone"
+      image: "/images/elena.jpg"
+      website: "https://elenacandellone.github.io/"
+    - name: "Emma Fraxanet"
+      image: "/images/emma.jpg"
+      website: "https://emmafrax.github.io/"
+    - name: "Fernando Diaz Diaz"
+      image: "/images/fer.jpg"
+      website: "https://sites.google.com/view/fernandodiazdiaz"
+    - name: "Irene Ferri"
+      image: "/images/irene.jpg"
+      website: "https://scholar.google.com/citations?user=mG-Y2VgAAAAJ&hl=en"
+    - name: "Miguel Ángel González Casado"
+      image: "/images/miguel.jpg"
+      website: "https://miguelangel-gonzalezc.github.io/"

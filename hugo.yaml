@@ -1,0 +1,48 @@
+baseURL: "https://signet-friends.github.io/"
+languageCode: "en-us"
+title: "FRIENDS"
+
+params:
+  siteName: "FRIENDS"
+  fullName: "Frameworks, Research and applIcations in complEx Networks with signeD edgeS"
+  tagline: "A satellite workshop on signed networks"
+  description: "FRIENDS is a satellite workshop on signed networks, i.e., networks with both positive and negative ties."
+  email: "signet.friends@gmail.com"
+  when: "June 1st, 2026"
+  where: "Boston, USA"
+  deadline: "Closed"
+  logo: "/images/logo.png"
+
+menu:
+  main:
+    - name: "Review"
+      pageRef: "/review"
+      weight: 10
+    - name: "Apps"
+      pageRef: "/apps"
+      weight: 15
+    - name: "Submit"
+      pageRef: "/submit"
+      weight: 20
+    - name: "Program"
+      pageRef: "/program"
+      weight: 30
+    - name: "Speakers"
+      pageRef: "/speakers"
+      weight: 40
+    - name: "Committee"
+      pageRef: "/committee"
+      weight: 50
+    - name: "Past Editions"
+      pageRef: "/pasteditions"
+      weight: 60
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+disableKinds:
+  - taxonomy
+  - term
+  - RSS

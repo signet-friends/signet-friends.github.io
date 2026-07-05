@@ -1,0 +1,99 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="wrap hero__inner">
+    <div class="hero__copy">
+      <p class="eyebrow">NetSci 2026 satellite · {{ .Site.Params.where }}</p>
+      <h1 class="hero__title">FRIENDS</h1>
+      <p class="hero__full-name">{{ .Site.Params.fullName }}</p>
+      <div class="prose hero__desc">
+        {{ .Content }}
+      </div>
+      <div class="hero__cta">
+        <a class="btn btn--primary" href="{{ "/program/" | relLangURL }}">See the program</a>
+        <a class="btn btn--ghost" href="{{ "/submit/" | relLangURL }}">Submit an abstract</a>
+      </div>
+    </div>
+
+    <div class="hero__diagram">
+      <div class="figure-card">
+        <img src="{{ "/images/signed-networks-examples.jpg" | relURL }}" alt="Examples of signed networks across social systems, ecology, economics, international relations, psychology, molecular biology, and neuroscience" loading="lazy">
+      </div>
+    </div>
+  </div>
+
+  <div class="fact-strip">
+    <div class="wrap fact-strip__inner">
+      <div class="fact"><span class="fact__label">When</span><span class="fact__value">{{ .Site.Params.when }}</span></div>
+      <div class="fact"><span class="fact__label">Where</span><span class="fact__value">{{ .Site.Params.where }}</span></div>
+      <div class="fact"><span class="fact__label">Abstract deadline</span><span class="fact__value">{{ .Site.Params.deadline }}</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <a class="apps-promo" href="{{ "/apps/" | relLangURL }}">
+      <div class="apps-promo__text">
+        <span class="apps-promo__tag">New</span>
+        <h2>Learn more about signed networks!</h2>
+        <p>We're building a set of interactive educational resources to accompany the book.</p>
+      </div>
+      <span class="btn btn--primary apps-promo__cta">Explore the apps →</span>
+    </a>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <h2 class="section__title"><span class="section__eyebrow">Program</span>Invited speakers</h2>
+    <div class="speaker-grid">
+      {{ range hugo.Data.speakers }}
+      <a class="speaker-card" href="{{ "/speakers/" | relLangURL }}#{{ .slug }}">
+        <div class="speaker-card__photo">
+          <img src="{{ .image | relURL }}" alt="{{ .name }}" loading="lazy">
+        </div>
+        <div class="speaker-card__body">
+          <h3>{{ .name }}</h3>
+          <p class="speaker-card__aff">{{ .affiliation }}</p>
+          <p class="speaker-card__talk">{{ .talk_title }}</p>
+        </div>
+        <span class="speaker-card__link">Abstract →</span>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="section section--muted">
+  <div class="wrap">
+    <h2 class="section__title"><span class="section__eyebrow">Find your way</span>Explore the satellite</h2>
+    <div class="quicklink-grid">
+      <a class="quicklink-card" href="{{ "/apps/" | relLangURL }}">
+        {{ partial "triad.html" (dict "size" 30 "variant" "mono") }}
+        <h3>Educational apps</h3>
+        <p>Interactive notebooks for exploring signed-network concepts.</p>
+      </a>
+      <a class="quicklink-card" href="{{ "/review/" | relLangURL }}">
+        {{ partial "triad.html" (dict "size" 30 "variant" "mono") }}
+        <h3>Review</h3>
+        <p>Read our pre-print on signed network theory, methods, and applications.</p>
+      </a>
+      <a class="quicklink-card" href="{{ "/submit/" | relLangURL }}">
+        {{ partial "triad.html" (dict "size" 30 "variant" "mono") }}
+        <h3>Submit an abstract</h3>
+        <p>Guidelines, templates, and topics for contributed talks.</p>
+      </a>
+      <a class="quicklink-card" href="{{ "/committee/" | relLangURL }}">
+        {{ partial "triad.html" (dict "size" 30 "variant" "mono") }}
+        <h3>Organizing committee</h3>
+        <p>The people behind FRIENDS, past and present.</p>
+      </a>
+      <a class="quicklink-card" href="{{ "/pasteditions/" | relLangURL }}">
+        {{ partial "triad.html" (dict "size" 30 "variant" "mono") }}
+        <h3>Past editions</h3>
+        <p>Talks from CCS 2024 and NetSci 2025.</p>
+      </a>
+    </div>
+  </div>
+</section>
+{{ end }}

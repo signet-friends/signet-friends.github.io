@@ -1,0 +1,31 @@
+{{ define "main" }}
+<section class="page-header">
+  <div class="wrap">
+    <p class="eyebrow">FRIENDS · NetSci 2026</p>
+    <h1>{{ .Title }}</h1>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap wrap--narrow">
+    {{ range hugo.Data.pasteditions }}
+    <div class="edition-group">
+      <h2 class="edition-group__title">{{ .edition }}</h2>
+      <table class="talk-table">
+        <thead>
+          <tr><th>Speaker</th><th>Title</th></tr>
+        </thead>
+        <tbody>
+          {{ range .talks }}
+          <tr>
+            <td class="talk-table__speaker">{{ .speaker }}</td>
+            <td>{{ .title }}</td>
+          </tr>
+          {{ end }}
+        </tbody>
+      </table>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

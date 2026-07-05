@@ -1,0 +1,33 @@
+{{ define "main" }}
+<section class="page-header">
+  <div class="wrap">
+    <p class="eyebrow">FRIENDS · NetSci 2026</p>
+    <h1>{{ .Title }}</h1>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap wrap--narrow">
+    {{ range $i, $s := hugo.Data.speakers }}
+    <article id="{{ $s.slug }}" class="speaker-profile">
+      <div class="speaker-profile__media">
+        <img src="{{ $s.image | relURL }}" alt="{{ $s.name }}" loading="lazy">
+      </div>
+      <div class="speaker-profile__body">
+        <h2>{{ $s.name }}</h2>
+        <p class="speaker-profile__aff">{{ $s.affiliation }}</p>
+        {{ if $s.bio }}<p>{{ $s.bio }}</p>{{ end }}
+        {{ if $s.website }}<p><a href="{{ $s.website }}" target="_blank" rel="noopener">{{ $s.website }}</a></p>{{ end }}
+
+        <div class="talk-card">
+          <p class="talk-card__label">Talk</p>
+          <h3>{{ $s.talk_title }}</h3>
+          <p class="talk-card__abstract">{{ $s.abstract }}</p>
+        </div>
+      </div>
+    </article>
+    {{ if ne (add $i 1) (len hugo.Data.speakers) }}<hr class="divider">{{ end }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,21 @@
+{{/* Signature triad glyph. Params: size (px), variant ("balanced" | "unbalanced" | "mono") */}}
+{{ $size := .size | default 22 }}
+{{ $variant := .variant | default "mono" }}
+<svg class="triad triad--{{ $variant }}" width="{{ $size }}" height="{{ $size }}" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  {{ if eq $variant "balanced" }}
+  <line x1="20" y1="6" x2="6" y2="32" class="triad-edge triad-edge--pos" />
+  <line x1="20" y1="6" x2="34" y2="32" class="triad-edge triad-edge--pos" />
+  <line x1="6" y1="32" x2="34" y2="32" class="triad-edge triad-edge--pos" />
+  {{ else if eq $variant "unbalanced" }}
+  <line x1="20" y1="6" x2="6" y2="32" class="triad-edge triad-edge--pos" />
+  <line x1="20" y1="6" x2="34" y2="32" class="triad-edge triad-edge--pos" />
+  <line x1="6" y1="32" x2="34" y2="32" class="triad-edge triad-edge--neg" />
+  {{ else }}
+  <line x1="20" y1="6" x2="6" y2="32" class="triad-edge" />
+  <line x1="20" y1="6" x2="34" y2="32" class="triad-edge" />
+  <line x1="6" y1="32" x2="34" y2="32" class="triad-edge" />
+  {{ end }}
+  <circle cx="20" cy="6" r="4" class="triad-node" />
+  <circle cx="6" cy="32" r="4" class="triad-node" />
+  <circle cx="34" cy="32" r="4" class="triad-node" />
+</svg>

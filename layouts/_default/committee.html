@@ -1,0 +1,32 @@
+{{ define "main" }}
+<section class="page-header">
+  <div class="wrap">
+    <p class="eyebrow">FRIENDS · NetSci 2026</p>
+    <h1>{{ .Title }}</h1>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    {{ range hugo.Data.committee }}
+    <div class="committee-group">
+      <h2 class="committee-group__title">{{ .edition }}</h2>
+      <div class="committee-grid">
+        {{ range .members }}
+        <div class="committee-member">
+          <div class="committee-member__photo">
+            <img src="{{ .image | relURL }}" alt="{{ .name }}" loading="lazy">
+          </div>
+          {{ if .website }}
+          <p class="committee-member__name"><a href="{{ .website }}" target="_blank" rel="noopener">{{ .name }}</a></p>
+          {{ else }}
+          <p class="committee-member__name">{{ .name }}</p>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

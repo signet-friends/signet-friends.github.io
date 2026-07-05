@@ -1,0 +1,24 @@
+{{ define "main" }}
+<section class="page-header">
+  <div class="wrap">
+    <p class="eyebrow">FRIENDS · NetSci 2026</p>
+    <h1>{{ .Title }}</h1>
+    <p class="page-header__note">Interactive marimo notebooks for exploring signed-network concepts hands-on.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="app-grid">
+      {{ range hugo.Data.apps }}
+      <a class="app-card" href="{{ .url }}" target="_blank" rel="noopener">
+        {{ if .topic }}<span class="app-card__topic">{{ .topic }}</span>{{ end }}
+        <h2>{{ .title }}</h2>
+        <p>{{ .description }}</p>
+        <span class="app-card__link">Open app →</span>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,13 @@
+<footer class="site-footer">
+  <div class="wrap site-footer__inner">
+    <div class="site-footer__brand">
+      {{ partial "triad.html" (dict "size" 20 "variant" "balanced") }}
+      <span>FRIENDS — {{ .Site.Params.fullName }}</span>
+    </div>
+    <div class="site-footer__meta">
+      <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
+      <span class="dot">·</span>
+      <span>A satellite of NetSci 2026, {{ .Site.Params.where }}</span>
+    </div>
+  </div>
+</footer>
