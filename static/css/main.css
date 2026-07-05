@@ -296,6 +296,20 @@ h1, h2, h3 {
   height: auto;
   border-radius: 4px;
 }
+.figure-card__caption {
+  margin: 12px 4px 2px;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--ink-faint);
+  line-height: 1.4;
+}
+.figure-card__caption a {
+  color: var(--ink-soft);
+  text-decoration: underline;
+  text-decoration-color: var(--line);
+  text-underline-offset: 3px;
+}
+.figure-card__caption a:hover { text-decoration-color: var(--accent); }
 
 /* ---------------------------------------------------------
    Sections

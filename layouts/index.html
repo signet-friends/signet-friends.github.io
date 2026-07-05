@@ -2,7 +2,7 @@
 <section class="hero">
   <div class="wrap hero__inner">
     <div class="hero__copy">
-      <p class="eyebrow">NetSci 2026 satellite · {{ .Site.Params.where }}</p>
+      <p class="eyebrow">FRIENDS satellite</p>
       <h1 class="hero__title">FRIENDS</h1>
       <p class="hero__full-name">{{ .Site.Params.fullName }}</p>
       <div class="prose hero__desc">
@@ -17,6 +17,7 @@
     <div class="hero__diagram">
       <div class="figure-card">
         <img src="{{ "/images/signed-networks-examples.jpg" | relURL }}" alt="Examples of signed networks across social systems, ecology, economics, international relations, psychology, molecular biology, and neuroscience" loading="lazy">
+        <p class="figure-card__caption">Figure taken from our literature review, <a href="{{ "/review/" | relLangURL }}">Signed Networks: theory, methods, and applications</a>.</p>
       </div>
     </div>
   </div>
@@ -35,8 +36,8 @@
     <a class="apps-promo" href="{{ "/apps/" | relLangURL }}">
       <div class="apps-promo__text">
         <span class="apps-promo__tag">New</span>
-        <h2>Learn more about signed networks!</h2>
-        <p>We're building a set of interactive educational resources to accompany the book.</p>
+        <h2>Learn signed networks by playing with them</h2>
+        <p>We're building a set of interactive marimo apps to accompany the talks — tune parameters, break things, and see signed-network concepts respond live.</p>
       </div>
       <span class="btn btn--primary apps-promo__cta">Explore the apps →</span>
     </a>
@@ -71,7 +72,7 @@
       <a class="quicklink-card" href="{{ "/apps/" | relLangURL }}">
         {{ partial "triad.html" (dict "size" 30 "variant" "mono") }}
         <h3>Educational apps</h3>
-        <p>Interactive notebooks for exploring signed-network concepts.</p>
+        <p>Interactive marimo notebooks for exploring signed-network concepts.</p>
       </a>
       <a class="quicklink-card" href="{{ "/review/" | relLangURL }}">
         {{ partial "triad.html" (dict "size" 30 "variant" "mono") }}
