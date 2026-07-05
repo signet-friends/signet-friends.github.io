@@ -47,7 +47,7 @@
   <div class="wrap">
     <h2 class="section__title"><span class="section__eyebrow">Program</span>Invited speakers</h2>
     <div class="speaker-grid">
-      {{ range hugo.Data.speakers }}
+      {{ range site.Data.speakers }}
       <a class="speaker-card" href="{{ "/speakers/" | relLangURL }}#{{ .slug }}">
         <div class="speaker-card__photo">
           <img src="{{ .image | relURL }}" alt="{{ .name }}" loading="lazy">
