@@ -1,14 +1,15 @@
 ---
 title: "Review"
+layout: "review"
 url: "/review/"
+params:
+  paper_title: "Signed Networks: theory, methods, and applications"
+  paper_authors: "Fernando Diaz-Diaz, Elena Candellone, Miguel A. Gonzalez-Casado, Emma Fraxanet, Antoine Vendeville, Irene Ferri, and Andreia Sofia Teixeira"
+  paper_year: "2025"
+  paper_venue: "arXiv pre-print"
+  arxiv_url: "https://arxiv.org/abs/2511.17247"
+  doi_url: "https://doi.org/10.48550/arXiv.2511.17247"
 ---
-Check out our latest pre-print, *Signed Networks: theory, methods, and applications*!
-
-[https://doi.org/10.48550/arXiv.2511.17247](https://doi.org/10.48550/arXiv.2511.17247)
-
-
-Cite it as:
-
 ```
 @misc{signednetworksreview,
       title={Signed Networks: theory, methods, and applications},

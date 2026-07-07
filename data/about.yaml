@@ -1,0 +1,57 @@
+# People shown on the About page ("Who we are").
+#
+# tags: any combination of [review, satellite, resources]
+#   review    -> co-author of the literature review
+#   satellite -> organized one or more satellite editions
+#   resources -> built the educational apps
+#
+# "review" and "satellite" tags below were pre-filled from the review's
+# author list and committee.yaml. Nobody is tagged "resources" yet —
+# add that tag yourself to whoever built the apps.
+#
+# Optional per person: website (links the name), role (small line under the name).
+
+- name: "Andreia Sofia Teixeira"
+  image: "/images/sofia.jpg"
+  website: "https://andreiasofiateixeira.com/"
+  tags: [review, satellite]
+
+- name: "Elena Candellone"
+  image: "/images/elena.jpg"
+  website: "https://elenacandellone.github.io/"
+  tags: [review, satellite, resources]
+
+- name: "Fernando Diaz Diaz"
+  image: "/images/fer.jpg"
+  website: "https://sites.google.com/view/fernandodiazdiaz"
+  tags: [review, satellite, resources]
+
+- name: "Anna Gallo"
+  image: "/images/AGallo.jpg"
+  website: "https://scholar.google.com/citations?user=Us0nqC8AAAAJ&hl=en"
+  tags: [satellite]
+
+- name: "Miguel Ángel González Casado"
+  image: "/images/miguel.jpg"
+  website: "https://miguelangel-gonzalezc.github.io/"
+  tags: [review, satellite]
+
+- name: "Emma Fraxanet"
+  image: "/images/emma.jpg"
+  website: "https://emmafrax.github.io/"
+  tags: [review, satellite, resources]
+
+- name: "Antoine Vendeville"
+  image: "/images/antoine.jpg"
+  website: "https://antoinevendeville.github.io/"
+  tags: [review, satellite]
+
+- name: "Irene Ferri"
+  image: "/images/irene.jpg"
+  website: "https://scholar.google.com/citations?user=mG-Y2VgAAAAJ&hl=en"
+  tags: [review, satellite]
+
+- name: "Meike van Engelenburg"
+  image: "/images/meike.jpg"
+  website: ""
+  tags: [resources]

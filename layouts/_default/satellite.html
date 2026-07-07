@@ -1,0 +1,40 @@
+{{ define "main" }}
+<section class="page-header">
+  <div class="wrap">
+    <p class="eyebrow">NetSci 2026</p>
+    <h1>Satellite workshop</h1>
+    <p class="page-header__note">{{ .Site.Params.where }} · {{ .Site.Params.when }}</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap wrap--narrow">
+    <div class="prose">
+      {{ .Content }}
+    </div>
+
+    <ul class="section-index">
+      <li class="section-index__row">
+        <a href="{{ "/program/" | relLangURL }}">Program</a>
+        <span>Schedule of keynotes, contributed talks, and breaks.</span>
+      </li>
+      <li class="section-index__row">
+        <a href="{{ "/speakers/" | relLangURL }}">Invited speakers</a>
+        <span>Bios and talk abstracts.</span>
+      </li>
+      <li class="section-index__row">
+        <a href="{{ "/submit/" | relLangURL }}">Abstract submission</a>
+        <span>Guidelines, template, and topics for contributed talks.</span>
+      </li>
+      <li class="section-index__row">
+        <a href="{{ "/committee/" | relLangURL }}">Organizing committee</a>
+        <span>Organizers of this and previous editions.</span>
+      </li>
+      <li class="section-index__row">
+        <a href="{{ "/pasteditions/" | relLangURL }}">Past editions</a>
+        <span>Talks from NetSci 2025 and CCS 2024.</span>
+      </li>
+    </ul>
+  </div>
+</section>
+{{ end }}

@@ -5,8 +5,8 @@ title: "FRIENDS"
 params:
   siteName: "FRIENDS"
   fullName: "Frameworks, Research and applIcations in complEx Networks with signeD edgeS"
-  tagline: "A satellite workshop on signed networks"
-  description: "FRIENDS is a satellite workshop on signed networks, i.e., networks with both positive and negative ties."
+  tagline: "An initiative to promote the study of signed networks."
+  description: "FRIENDS is an initiative to promote the study of signed networks, i.e., networks with both positive and negative ties."
   email: "signet.friends@gmail.com"
   when: "June 1st, 2026"
   where: "Boston, USA"
@@ -15,27 +15,39 @@ params:
 
 menu:
   main:
-    - name: "Review"
-      pageRef: "/review"
+    - name: "Educational Resources"
+      pageRef: "/resources"
       weight: 10
-    - name: "Apps"
-      pageRef: "/apps"
-      weight: 15
-    - name: "Submit"
-      pageRef: "/submit"
+    - name: "Satellite"
+      identifier: "satellite"
+      pageRef: "/satellite"
       weight: 20
     - name: "Program"
       pageRef: "/program"
-      weight: 30
+      parent: "satellite"
+      weight: 21
     - name: "Speakers"
       pageRef: "/speakers"
-      weight: 40
+      parent: "satellite"
+      weight: 22
+    - name: "Submit"
+      pageRef: "/submit"
+      parent: "satellite"
+      weight: 23
     - name: "Committee"
       pageRef: "/committee"
-      weight: 50
+      parent: "satellite"
+      weight: 24
     - name: "Past Editions"
       pageRef: "/pasteditions"
-      weight: 60
+      parent: "satellite"
+      weight: 25
+    - name: "Review"
+      pageRef: "/review"
+      weight: 30
+    - name: "About"
+      pageRef: "/about"
+      weight: 40
 
 markup:
   goldmark:

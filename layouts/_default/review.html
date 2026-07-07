@@ -1,0 +1,32 @@
+{{ define "main" }}
+<section class="page-header">
+  <div class="wrap">
+    <p class="eyebrow">FRIENDS</p>
+    <h1>Literature review</h1>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap wrap--narrow">
+    <article class="paper-card">
+      <h2 class="paper-card__title"><em>{{ .Params.paper_title }}</em></h2>
+      <p class="paper-card__authors">{{ .Params.paper_authors }}</p>
+      <p class="paper-card__meta">{{ .Params.paper_venue }}, {{ .Params.paper_year }}</p>
+      <div class="paper-card__links">
+        <a class="btn btn--primary" href="{{ .Params.arxiv_url }}" target="_blank" rel="noopener">Read on arXiv</a>
+        <a class="btn btn--ghost" href="{{ .Params.doi_url }}" target="_blank" rel="noopener">DOI</a>
+      </div>
+    </article>
+
+    <figure class="figure-card figure-card--review">
+      <img src="{{ "/images/signed-networks-examples.jpg" | relURL }}" alt="Examples of signed networks across social systems, ecology, economics, international relations, psychology, molecular biology, and neuroscience" loading="lazy">
+      <figcaption class="figure-card__caption">Signed networks appear across social systems, ecology, economics, international relations, psychology, molecular biology, and neuroscience. Figure from the review.</figcaption>
+    </figure>
+
+    <h2 class="cite-heading">How to cite</h2>
+    <div class="prose">
+      {{ .Content }}
+    </div>
+  </div>
+</section>
+{{ end }}

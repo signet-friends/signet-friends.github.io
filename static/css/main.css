@@ -140,6 +140,48 @@ h1, h2, h3 {
   text-decoration: none;
 }
 
+/* Dropdown for the Satellite section */
+.nav-group { position: relative; }
+.nav-group__parent { display: inline-flex; align-items: center; gap: 6px; }
+.nav-group__caret {
+  width: 6px;
+  height: 6px;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: rotate(45deg) translateY(-2px);
+}
+.nav-group__menu {
+  position: absolute;
+  top: 100%;
+  left: -14px;
+  min-width: 180px;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: 0 10px 24px rgba(44, 29, 20, 0.10);
+  padding: 6px 0;
+  display: none;
+  z-index: 30;
+}
+.nav-group:hover .nav-group__menu,
+.nav-group:focus-within .nav-group__menu { display: block; }
+.nav-group__item {
+  display: block;
+  padding: 9px 16px;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  white-space: nowrap;
+}
+.nav-group__item:hover,
+.nav-group__item.is-active {
+  color: var(--ink);
+  background: var(--paper-2);
+  text-decoration: none;
+}
+
 .nav-toggle { display: none; }
 .nav-burger {
   display: none;
@@ -169,7 +211,25 @@ h1, h2, h3 {
     transition: max-height 0.25s ease;
   }
   .site-nav__link { padding: 14px 24px; border-bottom: 1px solid var(--line); }
-  .nav-toggle:checked ~ .site-nav { max-height: 420px; }
+  .nav-toggle:checked ~ .site-nav { max-height: 640px; }
+
+  /* On mobile the Satellite subpages are listed inline, indented */
+  .nav-group__parent { width: 100%; }
+  .nav-group__caret { display: none; }
+  .nav-group__menu {
+    position: static;
+    display: block;
+    min-width: 0;
+    background: none;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0;
+  }
+  .nav-group__item {
+    padding: 12px 24px 12px 44px;
+    border-bottom: 1px solid var(--line);
+  }
 }
 
 /* ---------------------------------------------------------
@@ -393,25 +453,84 @@ h1, h2, h3 {
 }
 
 /* ---------------------------------------------------------
-   Quick links (home)
+   Three pillars (home)
 --------------------------------------------------------- */
-.quicklink-grid {
+.pillar-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 22px;
 }
-.quicklink-card {
+.pillar {
   background: var(--white);
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  padding: 22px;
+  padding: 26px 24px 22px;
   color: var(--ink);
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
-.quicklink-card:hover { text-decoration: none; border-color: var(--ink); }
-.quicklink-card svg { margin-bottom: 12px; }
-.quicklink-card h3 { font-size: 1.05rem; margin-bottom: 6px; }
-.quicklink-card p { margin: 0; font-size: 0.88rem; color: var(--ink-soft); }
+.pillar:hover { text-decoration: none; border-color: var(--ink); }
+.pillar svg { margin-bottom: 14px; }
+.pillar h2 { font-size: 1.2rem; margin-bottom: 8px; }
+.pillar p { margin: 0 0 16px; font-size: 0.92rem; color: var(--ink-soft); flex: 1; }
+.pillar__link {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--accent);
+}
+.pillar:hover .pillar__link { text-decoration: underline; }
+
+/* ---------------------------------------------------------
+   Section index (satellite landing)
+--------------------------------------------------------- */
+.section-index {
+  list-style: none;
+  margin: 36px 0 0;
+  padding: 0;
+  border-top: 1px solid var(--line);
+}
+.section-index__row {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 20px;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--line);
+}
+.section-index__row a {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--ink);
+}
+.section-index__row a:hover { color: var(--accent); }
+.section-index__row span { color: var(--ink-soft); font-size: 0.92rem; }
+@media (max-width: 560px) {
+  .section-index__row { grid-template-columns: 1fr; gap: 4px; }
+}
+
+/* ---------------------------------------------------------
+   Paper card (review page)
+--------------------------------------------------------- */
+.paper-card {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--positive);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: 28px 32px;
+}
+.paper-card__title { font-size: 1.5rem; margin-bottom: 10px; }
+.paper-card__authors { margin: 0 0 4px; color: var(--ink-soft); }
+.paper-card__meta {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--ink-faint);
+  margin: 0 0 20px;
+}
+.paper-card__links { display: flex; gap: 12px; flex-wrap: wrap; }
+
+.figure-card--review { margin: 32px 0 0; }
+.cite-heading { font-size: 1.3rem; margin: 44px 0 14px; }
 
 /* ---------------------------------------------------------
    Prose (markdown pages)
@@ -627,49 +746,6 @@ h1, h2, h3 {
 .site-footer__meta .dot { margin: 0 8px; }
 
 /* ---------------------------------------------------------
-   Apps promo banner (home)
---------------------------------------------------------- */
-.apps-promo {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 32px;
-  flex-wrap: wrap;
-  background: var(--accent);
-  color: var(--white);
-  border-radius: var(--radius);
-  padding: 36px 40px;
-}
-.apps-promo:hover { text-decoration: none; }
-.apps-promo__tag {
-  display: inline-block;
-  font-family: var(--font-mono);
-  font-size: 0.7rem;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  background: rgba(255,255,255,0.15);
-  padding: 3px 10px;
-  border-radius: 999px;
-  margin-bottom: 12px;
-}
-.apps-promo__text h2 {
-  color: var(--white);
-  font-size: 1.6rem;
-  margin-bottom: 8px;
-}
-.apps-promo__text p {
-  color: #E8D6DE;
-  margin: 0;
-  max-width: 56ch;
-}
-.apps-promo__cta {
-  background: var(--white);
-  color: var(--accent);
-  white-space: nowrap;
-}
-.apps-promo__cta:hover { background: #EFE0E6; }
-
-/* ---------------------------------------------------------
    App cards (apps page)
 --------------------------------------------------------- */
 .app-grid {
@@ -731,4 +807,62 @@ h1, h2, h3 {
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .speaker-card { transition: none; }
+}
+
+/* Role line on the About page */
+.committee-member__role {
+  margin: 2px 0 0;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--ink-faint);
+}
+
+/* Contribution tags (About page) */
+.person-tags {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 8px;
+}
+.person-tag {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--paper-2);
+  color: var(--ink-faint);
+}
+.person-tag--review { background: var(--accent-soft); color: var(--accent); }
+.person-tag--satellite { background: var(--positive-soft); color: var(--positive); }
+.person-tag--resources { background: var(--negative-soft); color: var(--negative); }
+
+/* Photo strip (About page story) */
+.photo-strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+  margin-top: 36px;
+}
+.photo-strip__item {
+  margin: 0;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 10px;
+}
+.photo-strip__item img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.photo-strip__item figcaption {
+  margin: 10px 4px 2px;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--ink-faint);
+  line-height: 1.4;
 }

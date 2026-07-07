@@ -1,1 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://signet-friends.github.io/apps/</loc></url><url><loc>https://signet-friends.github.io/</loc></url><url><loc>https://signet-friends.github.io/speakers/</loc></url><url><loc>https://signet-friends.github.io/committee/</loc></url><url><loc>https://signet-friends.github.io/pasteditions/</loc></url><url><loc>https://signet-friends.github.io/program/</loc></url><url><loc>https://signet-friends.github.io/review/</loc></url><url><loc>https://signet-friends.github.io/submit/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:59361/about/</loc>
+  </url><url>
+    <loc>http://localhost:59361/resources/</loc>
+  </url><url>
+    <loc>http://localhost:59361/</loc>
+  </url><url>
+    <loc>http://localhost:59361/speakers/</loc>
+  </url><url>
+    <loc>http://localhost:59361/committee/</loc>
+  </url><url>
+    <loc>http://localhost:59361/pasteditions/</loc>
+  </url><url>
+    <loc>http://localhost:59361/program/</loc>
+  </url><url>
+    <loc>http://localhost:59361/review/</loc>
+  </url><url>
+    <loc>http://localhost:59361/satellite/</loc>
+  </url><url>
+    <loc>http://localhost:59361/submit/</loc>
+  </url>
+</urlset>

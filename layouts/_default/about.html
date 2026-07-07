@@ -1,0 +1,53 @@
+{{ define "main" }}
+<section class="page-header">
+  <div class="wrap">
+    <p class="eyebrow">FRIENDS</p>
+    <h1>{{ .Title }}</h1>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap wrap--narrow">
+    <div class="prose">
+      {{ .Content }}
+    </div>
+
+    {{ with .Params.photos }}
+    <div class="photo-strip">
+      {{ range . }}
+      <figure class="photo-strip__item">
+        <img src="{{ .src | relURL }}" alt="{{ .alt | default .caption }}" loading="lazy">
+        {{ with .caption }}<figcaption>{{ . }}</figcaption>{{ end }}
+      </figure>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</section>
+
+<section class="section section--muted">
+  <div class="wrap">
+    <h2 class="section__title"><span class="section__eyebrow">The team</span>Who we are</h2>
+    <div class="committee-grid">
+      {{ range site.Data.about }}
+      <div class="committee-member">
+        <div class="committee-member__photo">
+          <img src="{{ .image | relURL }}" alt="{{ .name }}" loading="lazy">
+        </div>
+        {{ if .website }}
+        <p class="committee-member__name"><a href="{{ .website }}" target="_blank" rel="noopener">{{ .name }}</a></p>
+        {{ else }}
+        <p class="committee-member__name">{{ .name }}</p>
+        {{ end }}
+        {{ if .role }}<p class="committee-member__role">{{ .role }}</p>{{ end }}
+        {{ with .tags }}
+        <div class="person-tags">
+          {{ range . }}<span class="person-tag person-tag--{{ . }}">{{ . }}</span>{{ end }}
+        </div>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
