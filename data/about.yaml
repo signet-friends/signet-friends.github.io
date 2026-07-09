@@ -26,20 +26,20 @@
   website: "https://sites.google.com/view/fernandodiazdiaz"
   tags: [review, satellite, resources]
 
-- name: "Anna Gallo"
-  image: "/images/AGallo.jpg"
-  website: "https://scholar.google.com/citations?user=Us0nqC8AAAAJ&hl=en"
-  tags: [satellite]
-
+- name: "Emma Fraxanet"
+  image: "/images/emma.jpg"
+  website: "https://emmafrax.github.io/"
+  tags: [review, satellite, resources]
+  
 - name: "Miguel Ángel González Casado"
   image: "/images/miguel.jpg"
   website: "https://miguelangel-gonzalezc.github.io/"
   tags: [review, satellite]
 
-- name: "Emma Fraxanet"
-  image: "/images/emma.jpg"
-  website: "https://emmafrax.github.io/"
-  tags: [review, satellite, resources]
+- name: "Anna Gallo"
+  image: "/images/AGallo.jpg"
+  website: "https://scholar.google.com/citations?user=Us0nqC8AAAAJ&hl=en"
+  tags: [satellite]
 
 - name: "Antoine Vendeville"
   image: "/images/antoine.jpg"

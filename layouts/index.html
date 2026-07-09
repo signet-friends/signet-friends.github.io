@@ -1,5 +1,6 @@
 {{ define "main" }}
 <section class="hero">
+  <canvas id="network-bg" class="hero__network" aria-hidden="true"></canvas>
   <div class="wrap hero__inner">
     <div class="hero__copy">
       <p class="eyebrow">Signed networks</p>
@@ -19,15 +20,6 @@
         <img src="{{ "/images/signed-networks-examples.jpg" | relURL }}" alt="Examples of signed networks across social systems, ecology, economics, international relations, psychology, molecular biology, and neuroscience" loading="lazy">
         <p class="figure-card__caption">Figure from our literature review, <a href="{{ "/review/" | relLangURL }}">Signed Networks: theory, methods, and applications</a>.</p>
       </div>
-    </div>
-  </div>
-
-  <div class="fact-strip">
-    <div class="wrap fact-strip__inner">
-      <div class="fact"><span class="fact__label">Satellite</span><span class="fact__value">NetSci 2026</span></div>
-      <div class="fact"><span class="fact__label">When</span><span class="fact__value">{{ .Site.Params.when }}</span></div>
-      <div class="fact"><span class="fact__label">Where</span><span class="fact__value">{{ .Site.Params.where }}</span></div>
-      <div class="fact"><span class="fact__label">Abstract submission</span><span class="fact__value">{{ .Site.Params.deadline }}</span></div>
     </div>
   </div>
 </section>
@@ -57,6 +49,15 @@
   </div>
 </section>
 
+<div class="fact-strip">
+  <div class="wrap fact-strip__inner">
+    <div class="fact"><span class="fact__label">Satellite</span><span class="fact__value">NetSci 2026</span></div>
+    <div class="fact"><span class="fact__label">When</span><span class="fact__value">{{ .Site.Params.when }}</span></div>
+    <div class="fact"><span class="fact__label">Where</span><span class="fact__value">{{ .Site.Params.where }}</span></div>
+    <div class="fact"><span class="fact__label">Abstract submission</span><span class="fact__value">{{ .Site.Params.deadline }}</span></div>
+  </div>
+</div>
+
 <section class="section section--muted">
   <div class="wrap">
     <h2 class="section__title"><span class="section__eyebrow">NetSci 2026 satellite</span>Invited speakers</h2>
@@ -77,4 +78,6 @@
     </div>
   </div>
 </section>
+
+<script src="{{ "js/network-bg.js" | relURL }}" defer></script>
 {{ end }}

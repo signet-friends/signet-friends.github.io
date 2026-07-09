@@ -2,24 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:59361/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
   </url><url>
-    <loc>http://localhost:59361/resources/</loc>
+    <loc>http://localhost:1313/resources/</loc>
   </url><url>
-    <loc>http://localhost:59361/</loc>
+    <loc>http://localhost:1313/</loc>
   </url><url>
-    <loc>http://localhost:59361/speakers/</loc>
+    <loc>http://localhost:1313/speakers/</loc>
   </url><url>
-    <loc>http://localhost:59361/committee/</loc>
+    <loc>http://localhost:1313/committee/</loc>
   </url><url>
-    <loc>http://localhost:59361/pasteditions/</loc>
+    <loc>http://localhost:1313/pasteditions/</loc>
   </url><url>
-    <loc>http://localhost:59361/program/</loc>
+    <loc>http://localhost:1313/program/</loc>
   </url><url>
-    <loc>http://localhost:59361/review/</loc>
+    <loc>http://localhost:1313/review/</loc>
   </url><url>
-    <loc>http://localhost:59361/satellite/</loc>
+    <loc>http://localhost:1313/satellite/</loc>
   </url><url>
-    <loc>http://localhost:59361/submit/</loc>
+    <loc>http://localhost:1313/submit/</loc>
   </url>
 </urlset>

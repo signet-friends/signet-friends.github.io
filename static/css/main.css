@@ -3,23 +3,23 @@
    Design tokens
 --------------------------------------------------------- */
 :root {
-  --paper: #F6EEDD;
-  --paper-2: #EDE0C4;
-  --ink: #2C1D14;
-  --ink-soft: #6B4A34;
-  --ink-faint: #9C8168;
-  --positive: #6B7F23;
-  --positive-soft: #E6EACB;
-  --negative: #C1440E;
-  --negative-soft: #F6DCC7;
-  --accent: #7A3B58;
-  --accent-soft: #EFE0E6;
-  --white: #FFFCF4;
-  --line: #DECBA0;
+  --paper: #FFFFFF;
+  --paper-2: #F7F1E6;
+  --ink: #2B211B;
+  --ink-soft: #6B5842;
+  --ink-faint: #A8967D;
+  --positive: #3A6EA5;
+  --positive-soft: #DEE8F3;
+  --negative: #C04A3E;
+  --negative-soft: #F5DEDA;
+  --accent: #3F6B5C;
+  --accent-soft: #DCEAE5;
+  --white: #FFFFFF;
+  --line: #E3D9C8;
 
   --font-display: "Helvetica Neue", Arimo, Arial, sans-serif;
   --font-body: "Helvetica Neue", Arimo, Arial, sans-serif;
-  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --font-mono: "Helvetica Neue", Arimo, Arial, sans-serif;
 
   --radius: 10px;
   --max: 1120px;
@@ -92,7 +92,7 @@ h1, h2, h3 {
   position: sticky;
   top: 0;
   z-index: 20;
-  background: rgba(246, 238, 221, 0.92);
+  background: rgba(255, 255, 255, 0.92);
   backdrop-filter: blur(6px);
   border-bottom: 1px solid var(--line);
 }
@@ -235,7 +235,19 @@ h1, h2, h3 {
 /* ---------------------------------------------------------
    Hero
 --------------------------------------------------------- */
-.hero { padding-top: 56px; }
+.hero {
+  padding-top: 56px;
+  position: relative;
+  overflow: hidden;
+}
+.hero__network {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+.hero__inner,
+.fact-strip { position: relative; z-index: 1; }
 .hero__inner {
   display: grid;
   grid-template-columns: 1.15fr 0.85fr;
@@ -263,6 +275,20 @@ h1, h2, h3 {
   margin: 0 0 20px;
   max-width: 46ch;
 }
+.hero__copy {
+  position: relative;
+}
+.hero__copy::before {
+  content: "";
+  position: absolute;
+  inset: -40px -60px;
+  background: radial-gradient(ellipse at 40% 45%,
+              rgba(255, 255, 255, 0.92) 0%,
+              rgba(255, 255, 255, 0.75) 55%,
+              rgba(255, 255, 255, 0) 80%);
+  z-index: -1;
+  pointer-events: none;
+}
 .hero__desc { font-size: 1.05rem; color: var(--ink-soft); }
 .hero__desc p { margin: 0 0 1em; }
 .hero__desc strong { color: var(--ink); }
@@ -282,7 +308,7 @@ h1, h2, h3 {
   background: var(--accent);
   color: var(--white);
 }
-.btn--primary:hover { background: #5C2C42; text-decoration: none; }
+.btn--primary:hover { background: #2E4F44; text-decoration: none; }
 .btn--ghost {
   border-color: var(--ink);
   color: var(--ink);
@@ -319,7 +345,6 @@ h1, h2, h3 {
 }
 
 .fact-strip {
-  margin-top: 56px;
   background: var(--ink);
 }
 .fact-strip__inner {

@@ -8,9 +8,9 @@ params:
      - src: "/images/about/wwcs2023.png"
        caption: "Amsterdam, 2023. Our first group project at the Winter Workshop on Complex Systems"
      - src: "/images/about/wwcs2024.png"
-       caption: "WWCS 2024."
+       caption: "WWCS 2024. Some FRIENDS and FRIENDS of FRIENDS organizing the event in Catalunya"
      - src: "/images/about/ccs2024.png"
-       caption: "Exeter, 2024. Conference on Complex Systems"
+       caption: "Exeter, 2024. FRIENDS satellite event at the Conference on Complex Systems"
 
 
 # Photos shown below the story text.
@@ -27,4 +27,6 @@ params:
 ---
 
 
-*Amsterdam, 2023.* Emma, Elena, Miguel, Irene, and Fer met at the WWCS. Following Fer’s passion for signed networks, they spent a week working on a small project that culminated in a presentation on Piqué and Shakira, with other major consequences. In fact, we ended up organizing the next WWCS in Catalunya, and recruiting Sofia and Antoine to write a literature review on signed networks. Since then, we haven’t stopped! We organize a yearly satellite event, inviting speakers and contributed talks on signed networks, aiming to include as many perspectives from different fields as possible.
+*Amsterdam, 2023.* 
+
+Emma, Elena, Miguel, Irene, and Fer met at the [WWCS](https://wwcs2023.github.io/). Following Fer’s passion for signed networks, they spent a week working on a small project that culminated in a presentation on Piqué and Shakira, along with other major consequences. In fact, they ended up organizing the next [WWCS](https://wwcs2024.github.io/) in Catalunya, and recruiting Sofia and Antoine to write a literature review on signed networks. Since then, FRIENDS haven’t stopped! We have been organizing a yearly satellite event, inviting speakers and contributed talks on signed networks, aiming to include as many perspectives from different fields as possible.
