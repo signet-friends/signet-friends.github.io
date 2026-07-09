@@ -2,24 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://signet-friends.github.io/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/resources/</loc>
+    <loc>https://signet-friends.github.io/resources/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://signet-friends.github.io/</loc>
   </url><url>
-    <loc>http://localhost:1313/speakers/</loc>
+    <loc>https://signet-friends.github.io/speakers/</loc>
   </url><url>
-    <loc>http://localhost:1313/committee/</loc>
+    <loc>https://signet-friends.github.io/committee/</loc>
   </url><url>
-    <loc>http://localhost:1313/pasteditions/</loc>
+    <loc>https://signet-friends.github.io/pasteditions/</loc>
   </url><url>
-    <loc>http://localhost:1313/program/</loc>
+    <loc>https://signet-friends.github.io/program/</loc>
   </url><url>
-    <loc>http://localhost:1313/review/</loc>
+    <loc>https://signet-friends.github.io/review/</loc>
   </url><url>
-    <loc>http://localhost:1313/satellite/</loc>
+    <loc>https://signet-friends.github.io/satellite/</loc>
   </url><url>
-    <loc>http://localhost:1313/submit/</loc>
+    <loc>https://signet-friends.github.io/submit/</loc>
   </url>
 </urlset>
