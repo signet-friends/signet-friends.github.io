@@ -6,7 +6,7 @@
 - edition: "NetSci 2026"
   members:
     - name: "Andreia Sofia Teixeira"
-      image: "/images/sofia.jpg"
+      image: "/images/sofia.png"
       website: "https://andreiasofiateixeira.com/"
     - name: "Elena Candellone"
       image: "/images/elena.jpg"
@@ -21,7 +21,7 @@
 - edition: "NetSci 2025"
   members:
     - name: "Andreia Sofia Teixeira"
-      image: "/images/sofia.jpg"
+      image: "/images/sofia.png"
       website: "https://andreiasofiateixeira.com/"
     - name: "Elena Candellone"
       image: "/images/elena.jpg"
@@ -36,7 +36,7 @@
 - edition: "CCS 2024"
   members:
     - name: "Andreia Sofia Teixeira"
-      image: "/images/sofia.jpg"
+      image: "/images/sofia.png"
       website: "https://andreiasofiateixeira.com/"
     - name: "Antoine Vendeville"
       image: "/images/antoine.jpg"

@@ -12,7 +12,7 @@
 # Optional per person: website (links the name), role (small line under the name).
 
 - name: "Andreia Sofia Teixeira"
-  image: "/images/sofia.jpg"
+  image: "/images/sofia.png"
   website: "https://andreiasofiateixeira.com/"
   tags: [review, satellite]
 
